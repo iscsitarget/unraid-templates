@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>web-check</Name>
+  <Repository>lissy93/web-check:latest</Repository>
+  <Registry>https://hub.docker.com/r/lissy93/web-check</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Lissy93/web-check</Project>
+  <Overview/>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/A75G/docker-templates/master/templates/redis.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Lissy93/web-check/master/public/android-chrome-192x192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1720741935</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3029</Config>
+  <Config Name="GOOGLE_CLOUD_API_KEY" Target="GOOGLE_CLOUD_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="API_ENABLE_RATE_LIMIT" Target="API_ENABLE_RATE_LIMIT" Default="" Mode="" Description="Enable rate-limiting for the /api endpoints (e.g. true)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="API_TIMEOUT_LIMIT" Target="API_TIMEOUT_LIMIT" Default="" Mode="" Description="The timeout limit for API requests, in milliseconds (e.g. 10000)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="API_CORS_ORIGIN" Target="API_CORS_ORIGIN" Default="" Mode="" Description="Enable CORS, by setting your allowed hostname(s) here (e.g. example.com)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DISABLE_GUI" Target="DISABLE_GUI" Default="false" Mode="" Description="Disable the GUI, and only serve the API (e.g. false)" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="BUILT_WITH_API_KEY" Target="BUILT_WITH_API_KEY" Default="" Mode="" Description="A BuiltWith API key (https://api.builtwith.com/). This will show the main features of a site" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
