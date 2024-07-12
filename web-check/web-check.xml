@@ -7,17 +7,17 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/iscsitarget/unraid-templates/issues</Support>
   <Project>https://github.com/Lissy93/web-check</Project>
   <Overview/>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/A75G/docker-templates/master/templates/redis.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/Lissy93/web-check/master/public/android-chrome-192x192.png</Icon>
+  <Icon>https://raw.githubusercontent.com/iscsitarget/unraid-templates/main/web-check/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1720741935</DateInstalled>
+  <DateInstalled>1720742874</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
